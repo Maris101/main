@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+<head>
+<title>productform</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+      <div id="food" class="dropdown">
+          <button class="dropbtn">Food 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="food.html">Feed</a>
+            <a href="careitems.html">Care Items</a>
+            <a href="foodform.html">Purchase</a>
+            </div>
+          
+      
+          </nav>
+
+        <div class="header">
+            <h1>Purchase Our Produce Here</h1>
+            <p>What are you waiting for! Get cracking</p>
+         
+          </div>
+
+        
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;Just answer this quick form</h4>
+
+<form action="mailto:marishume@gmail.com?subject=From%20our%20Website" method="POST" enctype="text/plain" id= eggform>
+    <br>
+    <br>
+
+
+        <p>Enter first and last name:</p>
+        <input type="text" name="YourName" min="2" required="required"/>
+        <label><b>Required</b></label>
+        <br>
+        <br>
+        <p>Enter your age here:</p>
+        
+            <input type="number" name="age" id="age" min="1" max="100" step="1"/>
+         
+        <br>
+        <br>
+        <p>Phone Number here:</p>
+        <input type="tel" id="tel" name="tel" required="required">
+        <label><b>Required</b></label>
+        <br>
+        <br>
+        <p>Enter postal code here:</p>
+        <input type="text" name="postalcode" min="2" required="required"/>
+        <label><b>Required</b></label>
+        <br>
+        <br>
+        <p>Enter your email here:</p>
+        <input type="text" name="email" min="2" required="required"/>
+        <label><b>Required</b></label>
+        <br>
+        <br>
+        <p>Enter today's date here:</p>
+        <input type="date" id="TDate" name="TDate" required="required">
+        <label><b> Required</b></label>
+        <br>
+        <br>
+        <p>Product list:</p>
+        <select id="product">
+            <option value="none">None</option>
+            <option value="whitechickeneggs">White chicken eggs</option>
+            <option value="brownchickeneggs">Brown chicken eggs</option>
+            <option value="quaileggs">Quail eggs</option>
+            <option value="whiteduck">White duck eggs</option>
+            <option value="blueduck">Blue duck eggs</option>
+            <option value="carrot">Carrots</option>
+            <option value="tomato">Tomatos</option>
+            <option value="spinach">Spinach</option>
+            <option value="onion">Onion</option>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+    </select>
+  
+        <br>
+        <br>
+          
+ 
+        <p>Amount wanted:</p>
+
+        <input type="number" name="amount" id="number" min="1" max="100" step="1"/>
+
+
+        <br>
+        <br>
+        <br>
+        <label for="price">How are you? <br> Bad </label>
+        <input type="range" name="howareyou" id="price" min="1" max="10" step="1" <label>Good</label>
+        <br>
+        <br>
+        <br>
+    
+        <textarea name="comments" id="comments" style="font-family:sans-serif;font-size: 15px;">
+            Any comments?....
+            </textarea>
+
+    
+    
+
+    <br>
+    <br>
+    <br>
+
+    <form id="submit">
+        <input type="submit">
+  
+        <br>
+        <br>
+        <br>
+  
+  
+  
+  </form>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <p><b>Buy care items</b>
+    <a href="foodform.html">here!</a></p>
+    </footer>
+    
+
+
+</body>
+</html>
